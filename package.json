@@ -1,0 +1,16 @@
+{
+  "name": "com.andreaswitzen.services",
+  "version": "0.1.0",
+  "description": "A Service class with an example ServiceLocator pattern implementation.",
+  "displayName": "Services",
+  "unity": "2020.3",
+  "dependencies": {},
+ "keywords": [
+    "ServiceLocator"
+  ],
+  "author": {
+    "name": "Andreas",
+    "email": "andreaswitzen@gmail.com",
+    "url": "https://github.com/andreaswitzen"
+  }
+}
