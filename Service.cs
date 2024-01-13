@@ -4,7 +4,7 @@ namespace Packages.com.andreaswitzen.services
 {
     public abstract class Service : MonoBehaviour
     {
-        public void Awake()
+        public virtual void Awake()
         {
             DontDestroyOnLoad(gameObject);
             gameObject.name = typeof(GameObject).ToString();
