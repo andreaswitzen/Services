@@ -7,7 +7,7 @@ namespace Packages.com.andreaswitzen.services
         public virtual void Awake()
         {
             DontDestroyOnLoad(gameObject);
-            gameObject.name = typeof(GameObject).ToString();
+            gameObject.name = GetType().Name;
         }
 
         public static T Create<T>() where T : Service
