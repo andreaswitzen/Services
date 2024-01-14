@@ -1,0 +1,16 @@
+{
+    "name": "ServicesSamples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:07aa8dc5dd4037f418d1356a0893d928"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
