@@ -35,9 +35,7 @@ namespace Packages.com.andreaswitzen.services.Samples.Script
             else if (!Instance.Equals(this))
             {
                 Debug.LogError($"More than one service locator asset exists. " +
-                               $"The application might not behave predictably.\n" +
-                               $"Active instance path: {AssetDatabase.GetAssetPath(Instance.GetInstanceID())}\n" +
-                               $"Duplicate instance path: {AssetDatabase.GetAssetPath(GetInstanceID())}");
+                               $"The application might not behave predictably.");
             }
         }
     }
